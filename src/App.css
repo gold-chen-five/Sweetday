@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar{
+  display: none;  
+}
+
+@keyframes contextZoneIn {
+  from{
+    transform: translateY(3em)
+  }
+  to{
+    transform: translateY(0)
+  }
+}
+
+@keyframes audioAnimation {
+  form{
+    height: 200px;
+    width: 200px;
+  }
+  to{
+    height: 250px;
+    width: 250px;
+    transform: translate(-25px,-25px);
+  }
+}
+
+@keyframes audioAnimationReverse {
+  form{
+  }
+  to{
+    height: 200px;
+    width: 200px;
+  }
+}
+
