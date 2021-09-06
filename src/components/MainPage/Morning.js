@@ -7,7 +7,7 @@ import jonas5 from '../../images/jonas5.JPG'
 import jonas6 from '../../images/jonas6.JPG'
 import jonas7 from '../../images/jonas7.JPG'
 
-function Morning({setDisplay}) {
+function Morning() {
     const [scroll,setScroll] =useState(0)
     const Style ={
         elementWrapper: {

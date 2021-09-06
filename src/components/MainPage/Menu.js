@@ -153,6 +153,7 @@ export default Menu
 const Table = styled.div`
     height: 0; 
     width: 100%;
+    animation: 2s contextZoneIn ease;
 `
 const Container = styled.div`
     position: fixed;
@@ -170,7 +171,6 @@ const Container = styled.div`
 `
 const SweetDay = styled(Link)`
     width: 60%;
-    
     font-size: 25px;
     cursor: pointer;
     font-family: 'Vidaloka', serif;
@@ -244,7 +244,6 @@ const Menu768 = styled.div`
     left: 0;
     bottom: 0;
     width: 100%;
-    //height: 100vh;
     background: #E8E8E8;
     z-index: 10000;
     transform: translateY(${({display}) => display ? '0' : '-100%'}); 

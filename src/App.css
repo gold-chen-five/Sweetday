@@ -22,10 +22,10 @@
 
 @keyframes contextZoneIn {
   from{
-    transform: translateY(3em)
+    opacity: 0
   }
   to{
-    transform: translateY(0)
+    opacity: 1
   }
 }
 

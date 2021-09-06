@@ -17,6 +17,7 @@ const Container = styled.div`
     color: white;
     top: 50%;
     left: 50%;
+    animation: 2s contextZoneIn ease;
     transform: translate(-50%, -50%);
     font-family: 'Vidaloka', serif;
     @media screen and (max-width: 500px){

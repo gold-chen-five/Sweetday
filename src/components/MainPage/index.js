@@ -7,18 +7,14 @@ import EarlyMorning from './EarlyMorning'
 import Morning from './Morning'
 import ContactMe from './ContactMe'
 const MainPage = () => {
-    const [display,setDisplay] = useState(false)
-    useEffect(()=>{
-        console.log(display)
-    },[display])
     return (
-        <Container scroll="no">
+        <Container >
             <Menu/>
             <Main/>
             <Night/>
             <EarlyMorning/>
-            <Morning setDisplay={setDisplay}/>
-            <ContactMe display={display}/>
+            <Morning/>
+            <ContactMe/>
         </Container>
     )
 }
